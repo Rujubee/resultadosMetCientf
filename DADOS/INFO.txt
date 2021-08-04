@@ -1,0 +1,87 @@
+--------------------------------------------------------------------------------------------------------------------
+CONJUNTOS ESPARSOS ALEATÓRIOS (gerados de forma pseudo-aleatória)
+--------------------------------------------------------------------------------------------------------------------
+testeRand1 - 35
+number = [randint(-100, 100) for i in range(0, 35)]
+
+testeRand2 - 580
+number = [randint(-10000, 10000) for i in range(0, 580)]
+
+testeRand3 - 1200
+number = [randint(-10000, 10000) for i in range(0, 1200)]
+
+testeRand4 - 10.000
+[randint(-100000, 100000) for i in range(0, 10000)]
+
+testeRand5 - 100.000
+number = [randint(-1000000, 1000000) for i in range(0, 100000)]
+
+testeRand6 - 1.000.000
+number = [randint(-100000000, 100000000) for i in range(0, 1000000)]
+
+-----testeRand7 - 10.000.000.000
+number = [randint(-100000000, 100000000) for i in range(0, 10000000)]------
+
+testeRand8 - 8.000.000.000
+number = [randint(-100000000, 100000000) for i in range(0, 8000000)]
+
+
+--------------------------------------------------------------------------------------------------------------------
+CONJUNTOS ORDENADOS DE FORMA ASCENDENTE (com tendência a serem esparsos/diferentes e pseudo-aleatórios)
+--------------------------------------------------------------------------------------------------------------------
+
+testeOrdAsc1 - 35
+
+testeOrdAsc2 - 580
+
+testeOrdAsc3 - 1200
+
+testeOrdAsc4 - 10.000
+
+testeOrdAsc5 - 100.000
+
+testeOrdAsc6 - 1.000.000
+
+testeOrdAsc7 - 8.000.000
+
+--------------------------------------------------------------------------------------------------------------------
+CONJUNTOS ORDENADOS DE FORMA DESCENDENTE (com tendência a serem esparsos/diferentes e pseudo-aleatórios)
+--------------------------------------------------------------------------------------------------------------------
+
+testeOrdDesc1 - 35
+
+testeOrdDesc2 - 580
+
+testeOrdDesc3 - 1200
+
+testeOrdDesc4 - 10.000
+
+testeOrdDesc5 - 100.000
+
+testeOrdDesc6 - 1.000.000
+
+testeOrdDesc7 - 8.000.000
+
+--------------------------------------------------------------------------------------------------------------------
+CONJUNTOS COM ELEMENTOS REPETIDOS
+--------------------------------------------------------------------------------------------------------------------
+testeRepeat1 - 35
+number = [randint(35, 35) for i in range(0, 35)]
+
+testeRepeat2 - 580
+number = [randint(580, 580) for i in range(0, 580)]
+
+testeRepeat3 - 1200
+number = [randint(1200, 1200) for i in range(0, 1200)]
+
+testeRepeat4 - 10000
+number = [randint(10000, 10000) for i in range(0, 10000)]
+
+testeRepeat5 - 100000
+number = [randint(100000, 100000) for i in range(0, 100000)]
+
+testeRepeat6 - 1000000
+number = [randint(1000000, 1000000) for i in range(0, 1000000)]
+
+testeRepeat7 - 8000000
+number = [randint(8000000, 8000000) for i in range(0, 8000000)]

@@ -1,0 +1,13 @@
+Execução dos algoritmos de ordenação:
+ 
+1) Abra e execute o arquivo .py do algoritmo que deseja executar em uma IDE ou pelo terminal;
+
+2) Indique o nome do arquivo de teste pela linha de comando. Ex: testeOrdAsc6.txt
+
+Obs: Necessário estar na mesma pasta os arquivos de teste e o código utilizado.
+----------------------------------------------------
+Execução do algoritmo de geração de testes:
+
+1) Abra e execute o arquivo 'gerarDados.py' em uma IDE ou pelo terminal e aguarde a execução. A saída será um arquivo .txt contendo um conjunto gerado.
+
+Obs: Atente-se aos parâmetros que devem ser alterados manualmente no arquivo 'gerarDados.py'. 
